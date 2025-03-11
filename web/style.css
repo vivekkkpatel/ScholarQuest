@@ -5,27 +5,50 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Merriweather", Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 450;
+    font-variation-settings: "wdth" 100;
+
     background-position: center;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: #ad5389;
+    /* background: #ad5389;
     background: -webkit-linear-gradient(to top, #DAE2F8, #D6A4A4);
-    background: linear-gradient(135deg, #c2e9fb, #a1c4fd, #CBEAEC);
+    background: linear-gradient(135deg, #c2e9fb, #a1c4fd, #CBEAEC); */
+
+    background-image: url("../images/RTU11.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 }
 
 header {
+    font-family: "Varela Round", Arial, sans-serif;
+    font-weight: 400;
+    font-weight: 550;
+    font-style: normal;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.8%;
-    background-color: #E5D0CF; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    /* border: 0.1px solid rgb(114, 114, 114); */
+    background-color: transparent; 
+
 }
 
 .logo {
     display: flex;
     align-items: center;
+    margin-left: 1.65%;
 }
 
 .logo i {
